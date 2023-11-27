@@ -5,7 +5,7 @@ Automation framework for [https://www.saucedemo.com/](https://www.saucedemo.com/
 
 ## Reports
 
-HTML Reporting system is hosted at [Github Pages] (!!!).
+HTML Reporting system is hosted at [Github Pages](https://shiro-san-ua.github.io/Cypress-Cucumber/html/).
 
 ## Technologies Stack
 

@@ -8,6 +8,7 @@ export default defineConfig({
     chromeWebSecurity: false,
     specPattern: "cypress/e2e/features/*.feature",
     baseUrl: "https://www.saucedemo.com/",
+    reporter: 'cypress-mochawesome-reporter',
     async setupNodeEvents(
       on: Cypress.PluginEvents,
       config: Cypress.PluginConfigOptions
@@ -23,9 +24,10 @@ export default defineConfig({
       );
 
       // Make sure to return the config object as it might have been modified by the plugin.
+      require('cypress-mochawesome-reporter/plugin')(on);
       return config;
     },
-    reporter: "mochawesome"
+    
     
   },
 });

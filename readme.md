@@ -14,7 +14,7 @@ HTML Reporting system is hosted at [Github Pages] (!!!).
 -   [Cucumber.io](https://cucumber.io/) - BDD tool.
 -   [Faker](https://fakerjs.dev/guide/) - brary that generates fake (but reasonable) data.
 -   [Prettier](https://prettier.io/) - code formatter.
--   [mochawesome](https://github.com/adamgruber/mochawesome) - html reporter.
+-   [mochawesome](https://github.com/LironEr/cypress-mochawesome-reporter) - html reporter.
 
 ## Setup
 

@@ -6,7 +6,7 @@ const loginPage = new LoginPage();
 const randomUsername = faker.internet.userName();
 const randomPassword = faker.internet.password();
 
-Given("A user is at the login page", () => {
+Given("A user is at the Login page", () => {
     cy.visit("/");
 });
 

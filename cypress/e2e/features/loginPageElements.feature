@@ -1,7 +1,7 @@
 Feature: Login Page Elements
 
   Background:
-  Given A user is at the login page
+  Given A user is at the Login page
 
   Scenario: Verify visibility of login and password fields
     When A user checks the login and password fields
